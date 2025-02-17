@@ -3,6 +3,7 @@ body{
     padding: 0%;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -48,9 +49,7 @@ header{
     transition-duration: 0.7s;
     margin-left: 10px;
 }
-.h3-aside-1:hover{
-    transform: scale(1.1);
-}
+
 .h3-aside-2{
     margin-top: 30px;
     font-size: 14px;
@@ -58,9 +57,7 @@ header{
     font-weight: 900;
     transition-duration: 0.7s;
 }
-.h3-aside-2:hover{
-    transform: scale(1.1);
-}
+
 .h3-aside-3{
     margin-top: 30px;
     font-size: 14px;
@@ -68,9 +65,7 @@ header{
     font-weight: 900;
     transition-duration: 0.7s;
 }
-.h3-aside-3:hover{
-    transform: scale(1.1);
-}
+
 .h3-aside-4{
     margin-top: 30px;
     font-size: 14px;
@@ -216,7 +211,7 @@ header{
 .img-home-principal{
     animation: img-principal 1s ease-in-out;
     width: 100%;
-    height: 700px;
+    height: 500px;
     margin-top: 80px;
 }
 @keyframes img-principal{
@@ -300,7 +295,7 @@ header{
     animation-range: 0% 30%;
     animation-timeline: view();
     width: 80%;
-    height: 550px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     background-color: #0006ad2a;
@@ -390,4 +385,40 @@ header{
     margin-left: 43%;
     text-align: start;
     color: white;
+}
+.box-4{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin-top: 140%;
+}
+.linha-amarela{
+    width: 50%;
+    height: 15px;
+    background-color: yellow;
+    display: block;
+    float: left;
+}
+.linha-azul{
+    width: 50%;
+    height: 15px;
+    background-color: blue;
+    display: block;
+    float: left;
+}
+.air-2{
+    width: 200%;
+    height: 300px;
+    float: left;
+    margin-top: 200px;
+    overflow-x: auto;
+}
+.box-txt-2{
+    width: 400px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    margin-left: 30px;
+    display: block;
+   float: left;
 }
