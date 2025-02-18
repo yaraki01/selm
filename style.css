@@ -35,6 +35,7 @@ header{
     margin-top: -1px;
     z-index: 1;
     text-align: center;
+    box-shadow: 0px 5px 20px 2px  rgb(17, 1, 105);
 }
 @keyframes aside-move{
     from{
@@ -48,6 +49,7 @@ header{
     font-weight: 900;
     transition-duration: 0.7s;
     margin-left: 10px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .h3-aside-2{
@@ -56,6 +58,7 @@ header{
     color: white;
     font-weight: 900;
     transition-duration: 0.7s;
+    text-shadow: 1px 1px 1px black;
 }
 
 .h3-aside-3{
@@ -64,6 +67,7 @@ header{
     color: white;
     font-weight: 900;
     transition-duration: 0.7s;
+    text-shadow: 1px 1px 1px black;
 }
 
 .h3-aside-4{
@@ -72,9 +76,7 @@ header{
     color: white;
     font-weight: 700;
     transition-duration: 0.7s;
-}
-.h3-aside-4:hover{
-    transform: scale(1.1);
+    text-shadow: 1px 1px 1px black;
 }
 .angulo-para-baixo-aside{
     width: 13px;
@@ -83,7 +85,7 @@ header{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
+
     display: none;
 }
 .p-aside{
@@ -95,7 +97,7 @@ header{
 .box-p-aside-2{
     width: 100%;
     height: 50px;
-    background-color: #1e23b6;
+    
     border-radius: 10px;
     display: none;
 }
@@ -103,49 +105,42 @@ header{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-4{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-5{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-6{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-7{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-8{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .box-p-aside-9{
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: #1e23b6;
     display: none;
 }
 .whatsapp-img{
@@ -211,7 +206,7 @@ header{
 .img-home-principal{
     animation: img-principal 1s ease-in-out;
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin-top: 80px;
 }
 @keyframes img-principal{
@@ -227,7 +222,7 @@ header{
     font-size: 200%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 28%;
+    margin-top: 10px;
     text-align: center;
     font-weight: 900;
 }
@@ -262,12 +257,20 @@ header{
 }
 .box-2{
     width: 100%;
-    height: 2900px;
+    height: 2100px;
     background-color: white;
     margin-top: 45%;
     text-align: center;
     align-items: center;
 }
+.mochila{
+    width: 100px;
+    transform: rotate(20deg);
+    display: block;
+    float: left;
+    margin-top: 450px;
+}
+
 .nada{
     width: 100%;
     height: 1px;
@@ -278,43 +281,51 @@ header{
     margin-top: 10%;
 }
 .border-img-1{
-    width: 150px;
-    height: 150px;
-    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .img-border-in{
     width: 60%;
     margin-top: 20%;
 }
 .box-txt-1{
-    animation: move 2s ease-in-out;
-    animation-range: 0% 30%;
-    animation-timeline: view();
     width: 80%;
-    height: 500px;
+    height: 330px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0006ad2a;
+    background-color: #b63a3a;
     border-radius: 30px;
     margin-top: 120px;
+
+}
+.div-box-1-txt{
+    width: 100%;
+    background-color: white;
+    border: 0px solid rgb(0, 0, 0);
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 10px 1px ;
 }
 .h1-name-box-1{
-    color: #000c86;
-    margin-top: 30%;
-    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 20px;
     font-weight: 900;
+    text-align: center;
 }
 .p-box-1{
-    width: 160%;
-    text-align: start;
-    font-size: 14px;
-    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
     margin-top:  20px;
-    margin-left: -30%;
+    margin-left: 30px;
 }
 @keyframes move{
     0%{
@@ -327,6 +338,10 @@ header{
         transform: scale(1.2);
  }
 
+}
+.tinta-amarela{
+    margin-left: 250px;
+    margin-top: 10px;
 }
 .box-3{
     width: 100%;
@@ -348,12 +363,12 @@ header{
     animation-timeline: view();
     width: 90%;
     height: 300px;
-    background-image: linear-gradient(to right,  #0006ad,   #0007a9,    #0007a4,    #0008a0,    #00099c,    #000998,    #000a93,    #000a8f,    #000b8b,    #000c86,    #000c82,    #000d7e,    #000e7a,   #000e75,   #000f71,    #00106d  ,  #001069,   #001164,   #001260,   #00125c,   #001357,   #001353,   #00144f,   #00154b,   #001546,   #001642);
+   background-color: white;
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+    box-shadow: 3px 3px 50px 3px  rgb(17, 0, 255) ;
 }
 @keyframes scale0-8{
     from{
@@ -361,36 +376,32 @@ header{
     }
 }
 .foto-preta-air-1{
-    width: 40%;
+    width: 160px;
     height: 100%;
+    display: block;
+    float: left;
     background-color: rgb(0, 0, 0);
     border-radius: 30px 0px 0px 30px ;
 }
 .titulo-air-1{
-    color: #ffffff;
+    color: #020a58;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 900;
     display: block;
-    float: left;
-    margin-top: -250px;
-    margin-left: 43%;
+    padding-top: 40px;
+    margin-left: 20px;
 }
 .p-air-1{
-    width: 190px;
     display: block;
-    float: left;
-    margin-top: -210px;
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: 43%;
-    text-align: start;
-    color: white;
+    font-size: 11px;
+    margin-top: 40px;
 }
 .box-4{
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background-color: white;
     margin-top: 140%;
+    text-align: center;
 }
 .linha-amarela{
     width: 50%;
@@ -406,19 +417,105 @@ header{
     display: block;
     float: left;
 }
-.air-2{
-    width: 200%;
-    height: 300px;
+.scroll{
+    display: block;
     float: left;
-    margin-top: 200px;
-    overflow-x: auto;
+    margin-top: 100px;
+    width: 200%;
+    height: 400px;
+    overflow-y: auto;
 }
 .box-txt-2{
-    width: 400px;
     height: 100%;
+    width: 190%;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.air-2{
+    width: 400px;
+    height: 96%;
+    margin-top: 10px;
+    background-image: linear-gradient(to right,  #30a1b0,    #2e9bb3,    #2d95b6,   #2b8eb9,   #2988bc,    #2882bf,   #267cc2,   #2476c5,    #226fc8,   #2169cb,    #1f63ce,    #1d5dd1,    #1c57d4,    #1a51d8,    #184adb,    #1744de,    #153ee1 ,   #1338e4,    #1232e7,    #102bea,    #0e25ed,    #0c1ff0);
+    margin-left: 40px;
     border-radius: 20px;
-    background-color: rgb(231, 231, 231);
-    margin-left: 30px;
     display: block;
-   float: left;
+    float: left;
+    box-shadow: 1px 1px 10px 1px ;
+    text-align: left;
+}
+.img-air-2{
+    width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+}
+.h3-air-2{
+    color: white;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.box-txt-air-2{
+    width: 160px;
+    height: 195px;
+    border: 1px solid white;
+    display: block;
+    float: right;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.btn-matricula{
+    transition-duration: 0.5s;
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 25px;
+
+}
+.h3-btn-air-2{
+    width: 100px;
+    font-size: 11px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.sinal-de-mais{
+    width: 12px;
+    margin-left: 1px;
+}
+.btn-matricula:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+}
+.h1-air-2{
+    color: #000470;
+    display: block;
+    float: left;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 900;
+}
+img{
+    width: 200px;
+}
+.air-3{
+    width: 100%;
+    height: 700px;
+}
+.background-arte{
+    width: 100%;
+    height: 100%;
 }
