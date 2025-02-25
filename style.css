@@ -403,6 +403,7 @@ header{
     background-color: white;
     margin-top: 140%;
     text-align: center;
+    overflow-x: hidden;
 }
 .linha-amarela{
     width: 50%;
